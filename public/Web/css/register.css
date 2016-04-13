@@ -47,7 +47,7 @@ body{
 	margin-left: 15px;
 	width: 89px;
 	height: 17px;
-	background: url(../img/bg_reg_btn.png) no-repeat 0 -583px;
+	background: url(../Image/img/bg_reg_btn.png) no-repeat 0 -583px;
 	float: left;
 }
 /*注册顶部样式结束*/
@@ -74,7 +74,7 @@ body{
 }
 .main_list .list_one{
 	height: 32px;
-	border-top:3px solid #ff9801; 
+	border-top:3px solid #ff9801;
 	border-bottom: 1px solid #fff;
 }
 .main_list .list_two{
@@ -170,7 +170,7 @@ body{
 	width: 230px;
 	height: 36px;
 	cursor: pointer;
-	background:url(../img/bg_reg_btn.png) no-repeat 0 0;
+	background:url(../Image/img/bg_reg_btn.png) no-repeat 0 0;
 }
 .main_form .form_left .protocol{
 	font-size: 8px;
@@ -183,12 +183,12 @@ body{
 .form_right .right_top{
 	width: 257px;
 	height: 38px;
-	background: url(../img/bg_reg_btn.png) no-repeat 0 -320px;
+	background: url(../Image/img/bg_reg_btn.png) no-repeat 0 -320px;
 }
 .form_right .right_bottom{
 	width: 257px;
 	height: 186px;
-	background: url(../img/bg_reg_btn.png) no-repeat 0 -397px;
+	background: url(../Image/img/bg_reg_btn.png) no-repeat 0 -397px;
 
 }
 /*注册主体样式结束*/

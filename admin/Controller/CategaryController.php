@@ -1,7 +1,7 @@
 <?php
-	require '../init.php';
-	require '../Model/mysql.php';
-	require '../Model/page.php';
+	require '../../init.php';
+	require BASE_PATH.'function/mysql.php';
+	require BASE_PATH.'function/page.php';
 	require '../Model/CateModel.php';
 	$var=$_GET['cname'];
 	//根据不同的名加载不同的视图

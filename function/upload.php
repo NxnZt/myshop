@@ -1,5 +1,4 @@
 <?php
-	require '../init.php';
 	/**
 	 * 文件上传
 	 * @param  string $name 表单name
@@ -28,7 +27,7 @@
 		$upload_path=rtrim($dir,'/').'/'.date('Y/m/d');
 		// echo $upload_path;
 		//拼接路径
-		$save_path=PATH.'public/'.$upload_path;
+		$save_path=BASE_PATH.'public/'.$upload_path;
 
 		if(!file_exists($save_path)){
 			mkdir($save_path,777,true);

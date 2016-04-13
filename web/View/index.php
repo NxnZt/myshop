@@ -21,6 +21,8 @@
 				<div class="toolbar_right">
 					<ul>
 						<li>
+						<?php echo empty($_SESSION['user']['user_name'])?'<a href="./login.php" class="lg_re">登录</a><a href="web/Controller/registerController.php" class="lg_re">注册</a>':(empty($_SESSION['user']['nick_name'])?'<a href="person.php" class="lg_re">'.$_SESSION['user']['user_name'].'</a>':'<a href="person.php" class="lg_re">'.$_SESSION['user']['nick_name'].'</a>').'<a href="./action.php?a=outlogin" class="lg_re">退出</a>'
+						?>
 						</li>
 						<li><a class="lg_re" href="">我的订单</a><em class="icon dowm">&#xe62e;</em></li>
 						<li><a>我的易购</a><em class="icon dowm">&#xe62e;</em></li>
@@ -250,6 +252,7 @@
 				</div>
 				<div class="main_right">
 					<ul class="top_ul">
+						<?php if(!empty($goodsdata)):?>
 						<?php foreach($goodsdata as $v):?>
 						<li class="item1">
 							<p class="face"><a href="web/Controller/detailController.php?gid=<?php echo $v['id']?>"><img src="<?php echo __PUBLIC__.$v['goods_img']?>"></a></p>
@@ -260,6 +263,7 @@
 							</p>
 						</li>
 						<?php endforeach;?>
+						<?php endif;?>
 					</ul>
 					<div class="ulline"></div>
 				</div>

@@ -1,6 +1,4 @@
 <?php
-	require 'upload.php';
-
 	//删除图片
 	function delimg($table,$id){
 		$link=connect();

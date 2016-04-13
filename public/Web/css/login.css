@@ -60,7 +60,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span{
 	margin-right: 5px;
 	height: 16px;
 	width:16px;
-	background:url(../img/loginSp-ico.png) no-repeat 0 -48px;
+	background:url(../Image/img/loginSp-ico.png) no-repeat 0 -48px;
 }
 .login_body{
 	border: 1px solid #666;
@@ -76,7 +76,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span{
 	outline: none;
 	float: left;
 	margin-left: 5px;
-	width: 90%;	
+	width: 90%;
 	height: 48px;
 
 }
@@ -85,13 +85,13 @@ body,h1,h2,h3,h4,h5,h6,i,b,span{
 	height: 48px;
 	float: left;
 	display: block;
-	background: url(../img/loginSp-ico.png) no-repeat;
+	background: url(../Image/img/loginSp-ico.png) no-repeat;
 }
 .pow_img{
 	width: 34px;
 	height: 48px;
 	float: left;
-	background: url(../img/loginSp-ico.png) no-repeat -34px 0;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -34px 0;
 }
 .auto_login{
 	overflow: hidden;
@@ -132,7 +132,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span{
 	overflow: hidden;
 }
 .login_link span{
-	margin-right:10px; 
+	margin-right:10px;
 	float: left;
 	display: inline-block;
 	width: 1px;
@@ -159,7 +159,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span{
 	width: 18px;
 	height: 12px;
 	display: inline-block;
-	background: url(../img/loginSp-ico.png) no-repeat -56px -48px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -56px -48px;
 }
 /*表单样式结束*/
 .cooperation{
@@ -207,25 +207,25 @@ body,h1,h2,h3,h4,h5,h6,i,b,span{
 	font-size: 12px;
 }
 .cooperation .coop_img .weixin i{
-	background: url(../img/loginSp-ico.png) no-repeat 0 -139px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat 0 -139px;
 }
 .cooperation .coop_img .qq i{
-	background: url(../img/loginSp-ico.png) no-repeat -34px -139px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -34px -139px;
 }
 .cooperation .coop_img .yifubao i{
-	background: url(../img/loginSp-ico.png) no-repeat -68px -139px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -68px -139px;
 }
 .cooperation .coop_img .suning i{
-	background: url(../img/loginSp-ico.png) no-repeat -102px -139px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -102px -139px;
 }
 .cooperation .coop_img .pptv i{
-	background: url(../img/loginSp-ico.png) no-repeat -136px -139px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -136px -139px;
 }
 .cooperation .coop_img .manzuo i{
-	background: url(../img/loginSp-ico.png) no-repeat -170px -139px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -170px -139px;
 }
 .cooperation .coop_img .tianyi i{
-	background: url(../img/loginSp-ico.png) no-repeat -204px -139px;
+	background: url(../Image/img/loginSp-ico.png) no-repeat -204px -139px;
 }
 /*注册主体的样式结束*/
 /*底部样式开始*/

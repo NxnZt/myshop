@@ -1,4 +1,4 @@
-<?php include '../init.php';?>
+<?php include '../../init.php';?>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />

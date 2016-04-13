@@ -2,10 +2,10 @@
 @font-face{
 font-family:'ng-iconfont';
 src:url('./font/iconfont.eot?var=03');
-src:url('./font/iconfont.eot?#iefix') 
-format('embedded-opentype'),url('./font/iconfont.woff?var=03') 
-format('woff'),url('./font/iconfont.ttf?var=03') 
-format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03') 
+src:url('./font/iconfont.eot?#iefix')
+format('embedded-opentype'),url('./font/iconfont.woff?var=03')
+format('woff'),url('./font/iconfont.ttf?var=03')
+format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03')
 format('svg')
 }
 
@@ -89,7 +89,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     height: 16px;
     left: 2px;
     position: relative;
-    background: url(../img/npbg.png) no-repeat -16px -205px;
+    background: url(../Image/img/npbg.png) no-repeat -16px -205px;
 	}
 .header_top .top_nav .top_nav_left a{
 	float:left;
@@ -142,7 +142,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 /*header_bottom开始*/
 #header .header_bottom{
 	overflow:hidden;
-}	
+}
 .header_bottom .bottom_search{
 	overflow:hidden;
 }
@@ -170,7 +170,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	height:40px;
 }
 .bottom_search_right .text{
-	border:0; 
+	border:0;
 	outline:none;
 	width:470px;
 	height:40px;
@@ -199,7 +199,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 /*头部样式结束*/
 /*主体样式开始*/
 #main{
-	width:1263px;
+	width:100%;
 	overflow:hidden;
 }
 /*NAV样式开始*/
@@ -209,7 +209,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 #main .main_nav{
 	overflow:hidden;
 }
-.main_nav_left{	
+.main_nav_left{
 	margin-top:10px;
 	background:black;
 	width:200px;
@@ -228,7 +228,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	padding:15px;
 	color:white;
 	font-size:15px;
-	
+
 }
 .main_nav ul{
 	float:left;
@@ -268,7 +268,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 /*bread样式结束*/
 /*goods_details 样式开始*/
 .goods_details{
-	width:1263px;
+	width:100%;
 	overflow:hidden;
 }
 .phone_details{
@@ -303,7 +303,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	display:block;
 	width:12px;
 	height:20px;
-	background:url(../goodsimg/icons-2.png) no-repeat -17px 0;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -17px 0;
 }
 .phone_details .small_img .mid_goods{
 	width:330px;
@@ -332,7 +332,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	display:block;
 	width:12px;
 	height:20px;
-	background:url(../goodsimg/icons-2.png) no-repeat -39px 0;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -39px 0;
 }
 .phone_details  .number{
 	margin-top:10px;
@@ -359,7 +359,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	position:relative;
 	top:2;
 	left:0;
-	background:url(../goodsimg/icons-2.png) no-repeat 0 -455px;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat 0 -455px;
 }
 .phone_details  .number .share_icon2{
 	width:16px;
@@ -368,7 +368,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	top:2;
 	left:0;
 	display:inline-block;
-	background:url(../goodsimg/icons-2.png) no-repeat -16px -455px;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -16px -455px;
 }
 .phone_details  .number .share_icon3{
 	width:16px;
@@ -377,7 +377,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	top:2;
 	left:0;
 	display:inline-block;
-	background:url(../goodsimg/icons-2.png) no-repeat -32px -455px;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -32px -455px;
 }
 .phone_details .details_info{
 	width:798px;
@@ -409,7 +409,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
  .detals_main .price{
 	height:125px;
 	position:relative;
-	background:url(../goodsimg/repeat.png) repeat-x 0 0;
+	background:url(../Image/goodsimg/repeat.png) repeat-x 0 0;
 }
  .detals_main .price .price-sn{
 	float:left;
@@ -447,7 +447,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	font-weight:bold;
 	color:#fff;
 
-} 
+}
 .detals_main .price .price-promo{
 	float:left;
 	width:588px;
@@ -483,7 +483,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	font-weight:bold;
 	color:#fff;
 
-} 
+}
  .detals_main .price .price-start{
 	float:left;
 	width:588px;
@@ -497,13 +497,13 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	margin-left:70px;
 	width: 78px;
     height: 14px;
-    background: url(../goodsimg/icons-24.png) no-repeat -50px -15px;
+    background: url(../Image/goodsimg/icons-24.png) no-repeat -50px -15px;
 }
  .detals_main .price .price-start .start em{
 	width:70%;
 	float:left;
     height: 14px;
-    background: url(../goodsimg/icons-24.png) no-repeat -50px 0;
+    background: url(../Image/goodsimg/icons-24.png) no-repeat -50px 0;
 }
 .detals_main .price .price-start dd{
 	line-height:14px;
@@ -538,7 +538,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	color:white;
 }
  .detals_main .cuxiao{
-	font-size:12px;	
+	font-size:12px;
 	height:38px;
 	background:#F5F5F5;
 	line-height:38px;
@@ -590,7 +590,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	font-size:12px;
 }
  .detals_main .deliver dl dd{
-	
+
 	float:left;
 }
  .detals_main .deliver dl .address{
@@ -631,11 +631,11 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 .detals_main .o2o dd a{
 	font-size:12px;
-} 
+}
 .detals_main .o2o dd span{
 	color:#999;
 	font-size:12px;
-} 
+}
 .detals_main .o2o .icon{
 	position:absolute;
 	top: 8px;
@@ -643,7 +643,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	height:22px;
 	width:22px;
 	display:inline-block;
-	background:url(../goodsimg/icons-2.png) no-repeat -75px -330px;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -75px -330px;
 }
 .detals_main .serve{
 	height:25px;
@@ -663,14 +663,14 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 .detals_main .serve dd a{
 	float:left;
 	font-size:12px;
-} 
+}
 .detals_main .serve dd .online{
 	margin-left:30px;
 }
 .detals_main .serve dd span{
 	color:#999;
 	font-size:12px;
-} 
+}
 .detals_main .proinfo_ser{
 	padding-left:87px;
 	height:22px;
@@ -683,19 +683,19 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     left: 0;
     width: 14px;
     height: 14px;
-    background: url(../goodsimg/icons-2.png) no-repeat -185px 0;
+    background: url(../Image/goodsimg/icons-2.png) no-repeat -185px 0;
 }
 .detals_main .proinfo_ser .fq  i{
-    background: url(../goodsimg/icons-2.png) no-repeat 0 -170px;
+    background: url(../Image/goodsimg/icons-2.png) no-repeat 0 -170px;
 }
 .detals_main .proinfo_ser .myf  i{
-    background: url(../goodsimg/icons-2.png) no-repeat -23px -170px;
+    background: url(../Image/goodsimg/icons-2.png) no-repeat -23px -170px;
 }
 .detals_main .proinfo_ser .zt  i{
-    background: url(../goodsimg/icons-2.png) no-repeat --130px -170px;
+    background: url(../Image/goodsimg/icons-2.png) no-repeat --130px -170px;
 }
 .detals_main .proinfo_ser .th  i{
-    background: url(../goodsimg/icons-2.png) no-repeat --46px -170px;
+    background: url(../Image/goodsimg/icons-2.png) no-repeat --46px -170px;
 }
 .detals_main .proinfo_ser .rxf {
 	margin-right:15px;
@@ -723,7 +723,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 .detals_main .color dd a{
 	float:left;
 	font-size:12px;
-} 
+}
 .detals_main .color dd .online{
 	border:1px solid #ccc;
 	margin-right:5px;
@@ -736,7 +736,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 .detals_main .color dd span{
 	color:#999;
 	font-size:12px;
-} 
+}
 .detals_main .color dd .online img{
 	width:36px;
 	height:36px;
@@ -803,7 +803,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	float:left;
 	cursor: pointer;
 	font-size:12px;
-	background:url(../goodsimg/icons-2.png) no-repeat -110px 0;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -110px 0;
 	}
 .detals_main .num dd .count{
 	width:30px;
@@ -824,7 +824,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	float:left;
 	cursor: pointer;
 	font-size:12px;
-	background:url(../goodsimg/icons-2.png) no-repeat -85px -35px;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -85px -35px;
 }
 .detals_main .yanbao{
 	height:40px;
@@ -839,7 +839,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	margin-left:10px;
 	height:15px;
 	width:15px;
-	background:url(../goodsimg/icons-2.png) no-repeat 0 -115px;;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat 0 -115px;;
 }
 .detals_main .yanbao dt{
 	font-size:12px;
@@ -885,7 +885,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 .detals_main .btns .btns_buy{
 	position:absolute;
-	background:url(../goodsimg/btns-2.png) no-repeat -94px -45px;
+	background:url(../Image/goodsimg/btns-2.png) no-repeat -94px -45px;
 	left:81px;
 	top:0;
 	width:115px;
@@ -895,7 +895,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 .detals_main .btns .btns_addcar{
 	position:absolute;
-	background:url(../goodsimg/btns-2.png) no-repeat -219px -45px;
+	background:url(../Image/goodsimg/btns-2.png) no-repeat -219px -45px;
 	left:205px;
 	top:0;
 	border:none;
@@ -905,7 +905,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 .detals_main .btns .btns_collect{
 	position:absolute;
-	background:url(../goodsimg/btns-2.png) no-repeat;
+	background:url(../Image/goodsimg/btns-2.png) no-repeat;
 	left:350px;
 	top:0;
 	display:none;
@@ -950,7 +950,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	left:110px;
 	height:16px;
 	width:16px;
-	background:url(../goodsimg/icons-2.png) no-repeat -185px -40px;;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -185px -40px;;
 }
 .seller .sell_self .flag{
 	height:60px;
@@ -993,7 +993,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	position:absolute;
 	top:5px;
 	right:40;
-	background:url(../goodsimg/icons-2.png) no-repeat -215px -15px;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -215px -15px;
 }
 .assess_list dd span b{
 	font-size:12px;
@@ -1012,7 +1012,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 .compare .buttom a{
 	display:block;
-	background:url(../goodsimg/icons-2.png) no-repeat -164px -302px;
+	background:url(../Image/goodsimg/icons-2.png) no-repeat -164px -302px;
 	margin:5 auto;
 	width:72px;
 	font-size:12px;
@@ -1034,7 +1034,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	width:199px;
 	height:35px;
 	line-height:35px;
-	background:#F5F5F5 url(../goodsimg/repeat.png) no-repeat 0 -340px;
+	background:#F5F5F5 url(../Image/goodsimg/repeat.png) no-repeat 0 -340px;
 }
 .more_seller h3 i{
 	margin-left:10px;
@@ -1089,7 +1089,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 /*goods_details 样式结束*/
 /*评论样式开始*/
 .comment{
-	width:1263px;
+	width:100%;
 	overflow:hidden;
 	margin-bottom:20px;
 }
@@ -1121,7 +1121,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 
 .left_bottom_all .phone_info li{
-	width:168px;	
+	width:168px;
 	margin:0 auto;
 	margin-top:10px;
 }
@@ -1224,12 +1224,12 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 /*主体样式结束*/
 /*底部样式开始*/
 #footer{
-	width:1263px;
+	width:100%;
 	overflow:hidden;
 	background:#F5F5F5;
 }
 #footer .footer_top{
-	
+
 	margin:0 auto;
 	overflow:hidden;
 }
@@ -1253,19 +1253,19 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	width:48px;
 }
 .foot_top_title .dt1{
-	background:url(../img/npbg.png) no-repeat 0 0;
+	background:url(../Image/img/npbg.png) no-repeat 0 0;
 }
 .foot_top_title .dt2{
-	background:url(../img/npbg.png) no-repeat -48px 0;
+	background:url(../Image/img/npbg.png) no-repeat -48px 0;
 }
 .foot_top_title .dt3{
-	background:url(../img/npbg.png) no-repeat -96px 0;
+	background:url(../Image/img/npbg.png) no-repeat -96px 0;
 }
 .foot_top_title .dt4{
-	background:url(../img/npbg.png) no-repeat -144px 0;
+	background:url(../Image/img/npbg.png) no-repeat -144px 0;
 }
 .foot_top_title .dt5{
-	background:url(../img/npbg.png) no-repeat -191px 0;
+	background:url(../Image/img/npbg.png) no-repeat -191px 0;
 }
 .foot_top_title dd{
 	float:left;
@@ -1347,25 +1347,25 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 .middle_content .p3{
 	width:105px;
 	height:25px;
-	background:url(../img/npbg.png) -140px -49px no-repeat;
+	background:url(../Image/img/npbg.png) -140px -49px no-repeat;
 }
 .middle_content .dt1{
 	width:80px;
 	height:80px;
-	background:url(../img/f1.png) no-repeat;
-	
+	background:url(../Image/img/f1.png) no-repeat;
+
 }
 .middle_content .dt2{
 	width:80px;
 	height:80px;
-	background:url(../img/f2.png) no-repeat;
-	
+	background:url(../Image/img/f2.png) no-repeat;
+
 }
 .middle_content .dt3{
 	width:80px;
 	height:80px;
-	background:url(../img/npbg.png) no-repeat -44px -54px;
-	
+	background:url(../Image/img/npbg.png) no-repeat -44px -54px;
+
 }
 .footer_bottom{
 	background:#33302B;

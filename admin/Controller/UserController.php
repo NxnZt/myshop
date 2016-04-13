@@ -1,8 +1,7 @@
 <?php
-	require '../init.php';
-	require '../Model/mysql.php';
-	require '../Model/page.php';
-
+	require '../../init.php';
+	require BASE_PATH.'function/mysql.php';
+	require BASE_PATH.'function/page.php';
 	$var=$_GET['cname'];
 	switch ($var) {
 		case 'index':
