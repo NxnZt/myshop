@@ -1,0 +1,214 @@
+/*初始化样式*/
+@font-face{
+font-family:'ng-iconfont';
+src:url('./font/iconfont.eot?var=03');
+src:url('./font/iconfont.eot?#iefix') 
+format('embedded-opentype'),url('./font/iconfont.woff?var=03') 
+format('woff'),url('./font/iconfont.ttf?var=03') 
+format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03') 
+format('svg')
+}
+
+.icon {
+	display: inline-block;
+	font-family: "ng-iconfont"!important;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style-type:none;	
+}
+img{
+	border:none;
+}
+body,h1,h2,h3,h4,h5,h6,i,b,span,em{
+	font:14px/1.5 tahoma;;
+	color:#000；
+
+}
+/*预定义样式*/
+.w {
+	width:1190px;
+	margin:0 auto;
+}
+.clear{
+	clear:both;
+}
+/*header start*/
+#header{
+	width:1263px;
+	overflow:hidden;
+	background:#2B4681;
+}
+.account{
+	height:28px;
+	line-height:28px;
+	font-size:12px;
+	color:#ACB3C0;
+	text-align:right;
+}
+.account span{
+	font-size:12px;
+}
+.account em{
+	font-size:12px;
+}
+.account a{
+	font-size:12px;
+	color:#ACB3C0;
+}
+#logo{
+	width:1263px;
+	overflow:hidden;
+	background:#F9F9F9;
+	border-bottom:1px solid #ccc;
+}
+.logo_img{
+	width:230px;
+	height:50px;
+	margin-left:100px;
+	background:url(../img/logo_cashier_white.png) no-repeat 0 0;
+}
+/*header end*/
+#mian{
+	width:1263px;
+	overflow:hidden;
+	background:#F9F9F9;
+	border-bottom:1px solid #ccc;
+}
+.account_info{
+	width:990px;
+	height:86px;
+	line-height:86px;
+	position:relative;
+	margin:0 auto;
+	border-bottom:3px solid #ccc;
+}
+.account_info .name{
+	font-size:20px;
+	font-weight:bold;
+	color:#666666;
+}
+.account_info .total{
+	font-size:16px;
+	margin-left:300px;
+}
+.account_info .total a{
+	font-size:24px;
+	font-weight:bold;
+	color:#FF6600;
+}
+.account_info .er{
+	position:absolute;
+	z-index:999;
+	width:123px;
+	height:123px;
+	right:0;
+}
+.bank{
+	width:990px;
+	overflow:hidden;
+	background:white;
+	margin:0 auto;
+}
+.bank img{
+	display:block;
+	margin:0 auto;
+}
+.buttom{
+	width:990px;
+	height:150px;
+	margin:0 auto;
+	background:white;
+}
+.buttom p{
+	float:left;
+	margin-left:25px;
+	margin-top:20px;
+	font-size:20px;
+}
+.sub{
+	width:100px;
+	height:30px;
+	font-size:20px;
+	color:white;
+	border:2px solid #FFAA00;
+	border-radius:5px;
+	background:#FFAA00;
+	cursor:pointer;
+}
+.buttom .canceo{
+	width:100px;
+	height:30px;
+	font-size:20px;
+	color:white;
+	border:2px solid #FFAA00;
+	border-radius:5px;
+	padding:2px 10px;
+	background:#FFAA00;
+}
+.text{
+	width:990px;
+	margin:0 auto;	
+}
+.cont{
+	margin-top:20px;
+	margin-bottom:40px;
+}
+.cont h3{
+	padding:10px;
+	color:#666666;
+	font-weight:bold;
+	border-bottom:2px solid #DDDDDD;
+}
+.cont dl dt{
+	padding:10px;
+	color:#666666;
+	font-size:12px;
+}
+.cont dl dd{
+	padding-left:30px;
+	color:#666666;
+	font-size:12px;
+}
+/*注册底部样式开始*/
+#footer{
+	overflow: hidden;
+	width: 100%;
+	background: #F9F9F9;
+}
+.login_footer{
+	width:100%;
+	margin:25px auto;
+}
+.foot_main{
+	margin:0 auto;
+	margin-top: 50px;
+	width: 990px;
+	text-align: center;
+	background:#F9F9F9;
+}
+.foot_main p{
+	font-size:13px;
+	color:#666666;
+
+}
+.foot_main p{
+	margin-top: 10px;
+}
+.foot_main .copyright{
+	font-size: 10px;
+}
+.foot_img{
+	height: 25px;
+	margin-top:10px;
+}
+.foot_img a{
+	margin: 0 5px;
+}
+
+/*注册底部样式结束*/

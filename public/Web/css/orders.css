@@ -1,0 +1,361 @@
+/*样式初始化*/
+@font-face{
+font-family:'ng-iconfont';
+src:url('./font/iconfont.eot?var=03');
+src:url('./font/iconfont.eot?#iefix') 
+format('embedded-opentype'),url('./font/iconfont.woff?var=03') 
+format('woff'),url('./font/iconfont.ttf?var=03') 
+format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03') 
+format('svg')
+}
+
+.icon {
+	display: inline-block;
+	font-family: "ng-iconfont"!important;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style-type:none;	
+}
+img{
+	border:none;
+}
+body,h1,h2,h3,h4,h5,h6,i,b,span,em{
+	font:14px/1.5 tahoma;;
+	color:#000；
+
+}
+.clear{
+	clear:both;
+}
+/*预定义样式*/
+.w {
+	width:990px;
+	margin:0 auto;
+}
+/*main start*/
+#main{
+	width:1263px;
+	overflow:hidden;
+}
+/*car_logo start*/
+.car_logo{
+	overflow:hidden;
+}
+.car_logo .snlogo{
+	float:left;
+	margin-top:10px;
+}
+.car_logo  .cart_progress{
+	width:576px;
+	height:51px;
+	background:#fff;
+	float:right;
+	margin-top:10px;
+}
+.car_logo  .cart_progress ul  li{
+	width:144px;
+	float:left;
+	background:url(../img/steps.png) no-repeat 0 0;
+}
+.car_logo  .cart_progress ul  li i{
+	display:block;
+	text-align:center;
+	color:#fff;
+	width:24px;
+	height:24px;
+	margin:0 auto 6px;
+	line-height:24px;
+}
+.car_logo  .cart_progress ul  li span{
+	display:block;
+	text-align:center;
+}
+.car_logo  .cart_progress ul .finish{
+	background:url(../img/steps.png) no-repeat right top;
+	width:144px;
+	
+}
+.car_logo  .cart_progress ul .finish_2{
+	background:url(../img/steps.png) no-repeat right top;
+	width:144px;
+	
+}
+/*form start*/
+.form{
+	overflow:hidden;
+	margin-top:40px;
+}
+.form .dispatching{
+	font-size:16px;
+	font-weight:bold;
+}
+.form_main{
+	overflow:hidden;
+	margin-top:10px;
+	padding-bottom:20px;
+	border:1px solid #ccc;
+}
+.form_main .formlist{
+	width:938px;
+	overflow:hidden;
+	margin:0 auto;
+	position:relative;
+}
+.list_title{
+	height:30px;
+	line-height:30px;
+	margin-top:5px;
+	margin-bottom:20px;
+	font-weight:bold;
+	border-bottom:1px solid #ccc;
+}
+.formlist .link{
+	display:block;
+	margin-left:108px;
+	margin-top:20px;
+	color:#fff;
+	width:100px;
+	height:30px;
+	font-size:14px;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+	cursor:pointer;
+	background:#FD9500;
+}
+.list_main{
+	overflow:hidden;
+}
+
+.list_main .name{
+	width:800px;
+	height:30px;
+	margin:0 auto;
+	cursor:pointer;
+	margin-top:10px;
+	line-height:30px;
+}
+.list_main .name label{
+	cursor:pointer;
+}
+.list_main .name:hover{
+	background:#FFFBF2;
+}
+.list_main .name:hover .del_a{
+	display:block;
+}
+.list_main .name .del_a{
+	float:right;
+	display:none;
+	color:#0088CC;
+	margin-right:10px;
+}
+.list_main .name .del_a:hover{
+	color:#FF9900;
+}
+.list_main .name input{
+	height:25px;
+	width:200px;
+	line-height:25px;
+	font-size:12px;
+	outline:none;
+	border:1px solid #ccc;
+	padding-left:5px;
+}
+.list_main .name span{
+	display:inline-block;
+	font-size:12px;
+	width:142px;
+	text-align:right;
+}
+.list_main .name span i{
+	font-size:12px;
+	color:red;
+}
+.list_main .name .check{
+	float:left;
+	width:13px;
+	height:13px;
+	margin-top:8px;
+	margin-left:40px;
+}
+.list_main .name em{
+	margin-left:10px;
+	font-size:12px;
+}
+.list_main .name .sub{
+	display:inline-block;
+	width:100px;
+	height:30px;
+	margin-left:40px;
+	font-weight:bold;
+	font-size:14px;
+	line-height:30px;
+	text-align:center;
+	color:white;
+	border:1px solid #EF7700;
+	outline:none;
+	background:#FC9300;
+}
+/*form end*/
+/*paymathod start*/
+.paymathod .payfor{
+	margin-top:30px;
+	font-size:16px;
+	font-weight:bold;
+}
+.paymathod .content{
+	font-size:12px;
+	height:40px;
+	line-height:40px;
+	margin-top:10px;
+	padding-left:20px;
+	border:1px solid #CCCCCC;
+}
+/*paymathod end*/
+/*fuwu start*/
+.fuwu{
+	overflow:hidden;
+}
+.fuwu .title{
+	height:24px;
+	line-height:24px;
+	margin:10px 0;
+	font-size:16px;
+	font-weight:bold;
+}
+.fuwu .fuwu_main{
+	width:990px;
+	overflow:hidden;
+	border:1px solid #ccc;
+}
+.fuwu .thead{
+	height:35px;
+	font-size:12px;
+	border-bottom:1px solid #ccc;
+	font-weight:normal;
+	text-align:center;
+}
+.fuwu .thead td{
+	border-bottom:1px solid #ccc;
+}
+.fuwu .thead .name{
+	width:430px;
+}
+.fuwu .thead .price{
+	width:100px;
+}
+.fuwu .tbody{
+	height:100px;
+}
+.fuwu .tbody td{
+	font-size:12px;
+	text-align:center;
+	border-bottom:1px solid #ccc;
+}
+.fuwu .tbody img{
+	float:left;
+	height:60px;
+	width:60px;
+	margin-left:30px;
+}
+.fuwu .tbody .td1 a{
+	float:left;
+	font-size:12px;
+	text-align:left;
+	width:300px;
+	margin-top:10px;
+	margin-left:20px;
+}
+.fuwu .tbody .td4 a{
+	color:#FC9300;
+}
+.fuwu .tbody .td4 a:hover {
+	color:#FC9300;
+	text-decoration:underline;
+}
+/*fuwu end*/
+/*sub start*/
+.sub{
+	overflow:hidden;
+	margin-top:20px;
+	margin-bottom:20px;
+	background:#EEEEEE;
+}
+.sub p{
+	height:25px;
+	line-height:25px;
+	text-align:right;
+	font-weight:bold;
+	font-size:12px;
+	padding-right:20px;
+}
+.sub .price{
+	padding-top:20px;
+}
+.sub .price i{
+	font-size:14px;
+	font-weight:bold;
+	color:#DD0000;
+}
+.sub p i{
+	font-size:12px;
+}
+.sub .buttom{
+	float:right;
+	border:none;
+	width:115px;
+	margin-top:10px;
+	margin-right:20px;
+	height:40px;
+	cursor:pointer;
+	margin-bottom:20px;
+	background:url(../img/CartSprites.png) no-repeat 0 -82px;
+}
+/*sub end*/
+/*car_logo end*/
+/*mian end*/
+
+
+/*footer star*/
+#footer{
+	overflow: hidden;
+	width: 1263px;
+}
+.login_footer{
+	width:100%;
+	margin:25px auto;
+}
+.foot_main{
+	margin:0 auto;
+	margin-top: 50px;
+	width: 990px;
+	text-align: center;
+}
+.foot_main p{
+	font-size:13px;
+	color:#666666;
+
+}
+.foot_main p{
+	margin-top: 10px;
+}
+.foot_main .copyright{
+	font-size: 10px;
+}
+.foot_img{
+	height: 25px;
+	margin-top:10px;
+}
+.foot_img a{
+	margin: 0 5px;
+}
+/*footer end*/

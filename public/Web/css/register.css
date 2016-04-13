@@ -1,0 +1,231 @@
+/*预定义样式*/
+*{
+	margin :0;
+	padding: 0;
+	list-style: none;
+	text-decoration:none;
+}
+img{
+	border: 0;
+}
+body,h1,h2,h3,h4,h5,h6,i,b,span{
+	font:14px/1.5 微软微黑;
+	color:#000；
+
+}
+body{
+	background: #F5F5F5;
+}
+.clear{
+	clear: both;
+}
+.wrapper{
+	width: 990px;
+	overflow: hidden;
+	margin:0 auto;
+}
+/*注册顶部样式开始*/
+#register_top {
+	width: 990px;
+}
+.top_main{
+	width: 990px;
+	height:95px;
+}
+.main_logo{
+	margin-top: 15px;
+	height: 60px;
+	width: 990px;
+}
+.logo_left{
+	height: 60px;
+	width: 190px;
+	float: left;
+}
+.logo_right{
+	margin-top: 20px;
+	margin-left: 15px;
+	width: 89px;
+	height: 17px;
+	background: url(../img/bg_reg_btn.png) no-repeat 0 -583px;
+	float: left;
+}
+/*注册顶部样式结束*/
+/*注册主体样式开始*/
+#register_main{
+	height: 440px;
+	width: 990px;
+	position: relative;
+}
+.main_list{
+	height: 36px;
+	width: 244px;
+	position: absolute;
+	left: 150px;
+}
+.main_list  li{
+	background: #fff;
+	float: left;
+	height: 34px;
+	width: 112px;
+	text-align: center;
+	line-height: 34px;
+	border: 1px solid #ddd;
+}
+.main_list .list_one{
+	height: 32px;
+	border-top:3px solid #ff9801; 
+	border-bottom: 1px solid #fff;
+}
+.main_list .list_two{
+	margin-left: 15px;
+
+}
+.main_notice{
+	width: 968px;
+	height: 30px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-size:12px;
+	text-align: right;
+}
+.main_notice a{
+	color: #08C;
+}
+.main_form{
+	background: #fff;
+	height: 400px;
+	width: 990px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+.main_form .form_body{
+	margin: 0 auto;
+	margin-top: 50px;
+	width:968px;
+	height:268px;
+}
+.form_body .form_left{
+	float: left;
+	width: 600px;
+	height: 265px;
+}
+.form_body .form_right{
+	width: 360px;
+	height: 265px;
+	float: right;
+}
+.main_form .form_left .form_box{
+	margin-top: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.main_form .form_left .form_box p{
+
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 15px;
+	width: 570px;
+}
+.main_form .form_left .form_box span{
+	display: inline-block;
+	width: 140px;
+	text-align: right;
+}
+.main_form .form_left .form_box .text{
+	text-align: left;
+	color: #999;
+	font-size: 12px;
+}
+.main_form .form_left .form_box a{
+	color: #0088CC;
+}
+.main_form .form_left .form_box input{
+	margin-left: 5px;
+	font-size: 10px;
+	height:34px;
+	width: 235px;
+	color:#999;
+}
+.main_form .form_left .form_box .yzm{
+	height:34px;
+	width: 100px;
+}
+.main_form .form_left .form_box .sub{
+	color: black;
+	outline: none;
+	position: absolute;
+	top: 164px;
+	left: 257px;
+	background-color: #F8F8F8;
+	margin-left: 15px;
+	font-size: 12px;
+	width: 100px;
+	height:38px;
+	cursor: pointer;
+}
+.main_form .form_left .form_box .submit{
+	margin-left: 140px;
+	border:0;
+	width: 230px;
+	height: 36px;
+	cursor: pointer;
+	background:url(../img/bg_reg_btn.png) no-repeat 0 0;
+}
+.main_form .form_left .protocol{
+	font-size: 8px;
+	padding-left: 130px;
+}
+.main_form .form_body .form_left .protocol a{
+	color: #0088CC;
+	font-size: 8px;
+}
+.form_right .right_top{
+	width: 257px;
+	height: 38px;
+	background: url(../img/bg_reg_btn.png) no-repeat 0 -320px;
+}
+.form_right .right_bottom{
+	width: 257px;
+	height: 186px;
+	background: url(../img/bg_reg_btn.png) no-repeat 0 -397px;
+
+}
+/*注册主体样式结束*/
+/*注册底部样式开始*/
+#footer{
+	overflow: hidden;
+	width: 100%;
+	background: #f5f5f5;
+}
+.login_footer{
+	width:100%;
+	margin:25px auto;
+}
+.foot_main{
+	margin:0 auto;
+	margin-top: 150px;
+	width: 990px;
+	text-align: center;
+	background:#F5F5F5;
+}
+.foot_main p{
+	font-size:13px;
+	color:#666666;
+
+}
+.foot_main p{
+	margin-top: 10px;
+}
+.foot_main .copyright{
+	font-size: 10px;
+}
+.foot_img{
+	height: 25px;
+	margin-top:10px;
+}
+.foot_img a{
+	margin: 0 5px;
+}
+
+/*注册底部样式结束*/
