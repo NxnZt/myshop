@@ -21,7 +21,7 @@
 				<div class="toolbar_right">
 					<ul>
 						<li>
-						<?php echo empty($_SESSION['user']['user_name'])?'<a href="./login.php" class="lg_re">登录</a><a href="web/Controller/registerController.php" class="lg_re">注册</a>':(empty($_SESSION['user']['nick_name'])?'<a href="person.php" class="lg_re">'.$_SESSION['user']['user_name'].'</a>':'<a href="person.php" class="lg_re">'.$_SESSION['user']['nick_name'].'</a>').'<a href="./action.php?a=outlogin" class="lg_re">退出</a>'
+						<?php echo empty($_SESSION['user']['username'])?'<a href="web/Controller/loginController.php" class="lg_re">登录</a><a href="web/Controller/registerController.php" class="lg_re">注册</a>':(empty($_SESSION['user']['username'])?'<a href="person.php" class="lg_re">'.$_SESSION['user']['username'].'</a>':'<a href="person.php" class="lg_re">'.$_SESSION['user']['username'].'</a>').'<a href="web/Controller/loginController.php?cname=logout" class="lg_re">退出</a>'
 						?>
 						</li>
 						<li><a class="lg_re" href="">我的订单</a><em class="icon dowm">&#xe62e;</em></li>

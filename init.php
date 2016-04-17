@@ -1,7 +1,8 @@
 <?php
 	//字符集
 	header('Content-type:text/html;charset=utf-8');
-
+	//开启session
+	session_start();
 	//时区
 	date_default_timezone_set('PRC');
 

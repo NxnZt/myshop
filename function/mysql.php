@@ -51,6 +51,11 @@
 			return  preg_match($pattern,$value)===1?true:$rule;
 			break;
 
+			//用户名验证
+			case 'reg':
+			$pattern='/^\w{8,16}$/';
+			return  preg_match($pattern,$value)===1?true:$rule;
+
 			//验证长度
 			case 'length':
 			$value_len=mb_strlen($value,'utf8');
@@ -63,7 +68,7 @@
 
 	//验证是否一致
 	function identical($pwd,$repwd){
-		return md5($pwd)===md5($repwd)?true:'密码不一致';
+		return md5($pwd)===md5($repwd)?true:'两次密码不一致';
 	}
 
 	//获取字段

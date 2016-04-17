@@ -29,10 +29,10 @@
 					<div class="form_body">
 						<div class="form_left">
 							<form class="form_box" action="registerController.php" method="post">
-								<p><span>用户名:</span><input type="text" name="username" placeholder="长度6-16位的数字字母下划线组合">
+								<p><span>用户名:</span><input type="text" name="username" placeholder="长度8-16位的数字字母下划线组合">
 								</p>
-								<p><span>设置密码:</span><input type="password" name="password" placeholder="长度8-16位的数字、字母组合"></p>
-								<p><span>确认密码:</span><input type="password" name="repassword" placeholder="长度8-16位的数字、字母组合"></p>
+								<p><span>设置密码:</span><input type="password" name="pass" placeholder="长度8-16位的数字、字母组合"></p>
+								<p><span>确认密码:</span><input type="password" name="repass" placeholder="长度8-16位的数字、字母组合"></p>
 								<!--<p><span>验证码:</span><input class="yzm" type="text"></p-->
 								<p><span>验证码:</span><input class="yzm" type="text" name="yzm"></p>
 								<div class="sub"><img src="<?php echo $url.'/function/yzm.php'?>" title="点击切换" onclick="this.src='<?php echo $url.'/function/yzm.php?'?>'+(new Date()).getTime();"></div>

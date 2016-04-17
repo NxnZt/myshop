@@ -21,14 +21,14 @@
 					<i></i>
 				</div>
 				<!--登录输入框-->
-				<form action="action.php?a=login&url=<?php echo $url?>" method="post">
+				<form action="loginController.php?cname=login" method="post">
 					<div class="login_body">
 						<i class="user_img"></i>
 						<input type="text" name="username" />
 					</div>
 					<div class="login_body">
 						<i class="pow_img"></i>
-						<input type="password" name="password"/>
+						<input type="password" name="pass"/>
 					</div>
 					<!--登陆按钮	-->
 					<div class="auto_login">
