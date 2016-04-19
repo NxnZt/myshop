@@ -2,10 +2,10 @@
 @font-face{
 font-family:'ng-iconfont';
 src:url('./font/iconfont.eot?var=03');
-src:url('./font/iconfont.eot?#iefix') 
-format('embedded-opentype'),url('./font/iconfont.woff?var=03') 
-format('woff'),url('./font/iconfont.ttf?var=03') 
-format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03') 
+src:url('./font/iconfont.eot?#iefix')
+format('embedded-opentype'),url('./font/iconfont.woff?var=03')
+format('woff'),url('./font/iconfont.ttf?var=03')
+format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03')
 format('svg')
 }
 
@@ -22,7 +22,7 @@ format('svg')
 	margin:0;
 	padding:0;
 	text-decoration:none;
-	list-style-type:none;	
+	list-style-type:none;
 }
 img{
 	border:none;
@@ -92,7 +92,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     height: 16px;
     left: 2px;
     position: relative;
-    background: url(../img/npbg.png) no-repeat -16px -205px;
+    background: url(../Image/img/npbg.png) no-repeat -16px -205px;
 	}
 .header_top .top_nav .top_nav_left a{
 	float:left;
@@ -172,7 +172,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 .car_logo  .cart_progress ul  li{
 	width:144px;
 	float:left;
-	background:url(../img/steps.png) no-repeat 0 0;
+	background:url(../Image/img/steps.png) no-repeat 0 0;
 }
 .car_logo  .cart_progress ul  li i{
 	display:block;
@@ -188,9 +188,9 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	text-align:center;
 }
 .car_logo  .cart_progress ul .finish{
-	background:url(../img/steps.png) no-repeat right top;
+	background:url(../Image/img/steps.png) no-repeat right top;
 	width:144px;
-	
+
 }
 .car_tip{
 	height:44px;
@@ -204,7 +204,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	height:22px;
 	margin-top:10px;
 	margin-right:10px;
-	background:url(../img/CartSprites.png) no-repeat 0 -168px;
+	background:url(../Image/img/CartSprites.png) no-repeat 0 -168px;
 }
 /*car_logo end*/
 /*instruction start*/
@@ -219,13 +219,13 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	font-size:12px;
 	background:#FFFFF0;
 }
-.instruction  a{ 
+.instruction  a{
 	float:right;
 	font-size:12px;
 	color:#0088CC;
-	
+
 }
-.instruction  a:hover { 
+.instruction  a:hover {
 	color:#FF9900;
 	text-decoration:underline;
 }
@@ -254,7 +254,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	float:left;
 	margin-top:80px;
 	margin-left:210px;
-	background:url(../img/cart1.png) no-repeat 0 -195px;
+	background:url(../Image/img/cart1.png) no-repeat 0 -195px;
 }
  .null_info{
 	float:left;
@@ -314,7 +314,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     width: 15px;
     height: 18px;
     cursor: pointer;
-	background: url(../img/cart1.png) no-repeat -130px -580px;
+	background: url(../Image/img/cart1.png) no-repeat -130px -580px;
 }
 .sell  strong{
     margin-right: 15px;
@@ -326,7 +326,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	position: relative;
 	top: 8px;
 	height: 21px;
-	background: url(../img/askBar.gif) no-repeat;
+	background: url(../Image/img/askBar.gif) no-repeat;
 }
 .sell a span{
 	font-size: 12px;
@@ -390,7 +390,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	left: 4px;
 	height: 20px;
 	width: 20px;
-	background:url(../img/cart1.png) no-repeat -13px -418px;
+	background:url(../Image/img/cart1.png) no-repeat -13px -418px;
 }
 .snshop .goods_list .num input{
 	width: 30px;
@@ -404,7 +404,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	left: -4px;
 	height: 20px;
 	width: 20px;
-	background:url(../img/cart1.png) no-repeat -34px -439px;
+	background:url(../Image/img/cart1.png) no-repeat -34px -439px;
 }
 .snshop .goods_list .total{
 
@@ -488,7 +488,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	cursor:pointer;
 	outline: 0;
 	border:none;
-	background: url(../img/cart1.png) no-repeat ;
+	background: url(../Image/img/cart1.png) no-repeat ;
 }
 .like{
 	height: 300px;
@@ -521,13 +521,13 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	cursor:pointer;
   }
 .like .one{
-	background:url(../img/cart1.png) no-repeat -102px -246px;
+	background:url(../Image/img/cart1.png) no-repeat -102px -246px;
   }
 .like .two{
-	background:url(../img/cart1.png) no-repeat -102px -264px;
+	background:url(../Image/img/cart1.png) no-repeat -102px -264px;
   }
 .like .three{
-	background:url(../img/cart1.png) no-repeat -102px -264px;
+	background:url(../Image/img/cart1.png) no-repeat -102px -264px;
   }
 .like .like_title p{
 	float:left;
@@ -545,8 +545,8 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     height: 265px;
     position: absolute;
     top: 0;
-	background:url(../img/cart1.png) no-repeat -228px 100px;
-	
+	background:url(../Image/img/cart1.png) no-repeat -228px 100px;
+
 }
 .mid_goods{
 	width:898px;
@@ -597,7 +597,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     position: absolute;
     top: 0;
 	right:0;
-	background:url(../img/cart1.png) no-repeat -312px 100px;
+	background:url(../Image/img/cart1.png) no-repeat -312px 100px;
 }
 /*.snshop .goods_cont{
 	height: 48px;

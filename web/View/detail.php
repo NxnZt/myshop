@@ -183,8 +183,8 @@
 							<div class="line"></div>
 							<?php if($goods[0]['store']!=0){?>
 							<div class="btns">
-								<input type="submit" name="buy" value="" class="btns_buy">
-								<input type="submit" name="addcar"value="" class="btns_addcar">
+								<input type="submit" name="submit" value="btns_buy" style="text-indent:-9999px;" class="btns_buy">
+								<input type="submit" name="submit"value="btns_addcar" style="text-indent:-9999px;" class="btns_addcar">
 								<input type="submit" value="" class="btns_collect">
 							</div>
 							<?php }else{?>
