@@ -130,7 +130,7 @@
 				<i>¥<?php echo number_format($total,2);?></i>
 			</div>
 			<div class="count">
-				<form action="action.php?a=settlement" method="post">
+				<form action="OrderController.php" method="post">
 					<input type="hidden" name="surplus" value="<?php echo $surplus_convert?>">
 					<input type="hidden" name="total" value="<?php echo $amount_payable?>">
 					<input class="sub" type="submit" value="">

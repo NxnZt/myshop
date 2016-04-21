@@ -118,7 +118,7 @@
 		$values_str=implode('\',\'',$values);
 
 		//组成插入的sql语句
-		$insertsql="insert into $table($keys_str) values('{$values_str}')";
+		$insertsql="insert into `{$table}`($keys_str) values('{$values_str}')";
 		$result=mysqli_query($link,$insertsql);
 
 		//返回的值
@@ -193,12 +193,13 @@
 			if($k!='id'){
 				$set[]="$k='{$v}'";
 			}else{
-				$id=$v;
+				$id='and id='.$v;
 			}
 		}
 		$setStr=implode(',',$set);
 		$link=connect();
-		$sql="update $table set {$setStr} where id=$id";
+		$sql="update $table set {$setStr} where 1 $id";
+		echo $sql;
 		$result=mysqli_query($link,$sql);
 		return $result;
 	}

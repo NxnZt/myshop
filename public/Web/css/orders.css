@@ -2,10 +2,10 @@
 @font-face{
 font-family:'ng-iconfont';
 src:url('./font/iconfont.eot?var=03');
-src:url('./font/iconfont.eot?#iefix') 
-format('embedded-opentype'),url('./font/iconfont.woff?var=03') 
-format('woff'),url('./font/iconfont.ttf?var=03') 
-format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03') 
+src:url('./font/iconfont.eot?#iefix')
+format('embedded-opentype'),url('./font/iconfont.woff?var=03')
+format('woff'),url('./font/iconfont.ttf?var=03')
+format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03')
 format('svg')
 }
 
@@ -22,7 +22,7 @@ format('svg')
 	margin:0;
 	padding:0;
 	text-decoration:none;
-	list-style-type:none;	
+	list-style-type:none;
 }
 img{
 	border:none;
@@ -63,7 +63,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 .car_logo  .cart_progress ul  li{
 	width:144px;
 	float:left;
-	background:url(../img/steps.png) no-repeat 0 0;
+	background:url(../Image/img/steps.png) no-repeat 0 0;
 }
 .car_logo  .cart_progress ul  li i{
 	display:block;
@@ -79,14 +79,14 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	text-align:center;
 }
 .car_logo  .cart_progress ul .finish{
-	background:url(../img/steps.png) no-repeat right top;
+	background:url(../Image/img/steps.png) no-repeat right top;
 	width:144px;
-	
+
 }
 .car_logo  .cart_progress ul .finish_2{
-	background:url(../img/steps.png) no-repeat right top;
+	background:url(../Image/img/steps.png) no-repeat right top;
 	width:144px;
-	
+
 }
 /*form start*/
 .form{
@@ -318,7 +318,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	height:40px;
 	cursor:pointer;
 	margin-bottom:20px;
-	background:url(../img/CartSprites.png) no-repeat 0 -82px;
+	background:url(../Image/img/CartSprites.png) no-repeat 0 -82px;
 }
 /*sub end*/
 /*car_logo end*/

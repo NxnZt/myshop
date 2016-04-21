@@ -22,11 +22,11 @@
 					unset($user[0]['pass']);
 					$_SESSION['user'] = $user[0];
 					header('location:'.$url);
-
 				} else {
 					die('登录失败');
 				}
 			}
+		break;
 		case 'logout':
 			unset($_SESSION['user']);
 			header('location:'.$url);

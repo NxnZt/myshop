@@ -32,6 +32,7 @@
 			$_SESSION['cart'][$gid]=$data[0];
 		}
 		$total = total($_SESSION['cart']);
+		$_SESSION['total'] = $total;
 		require '../View/car.php';
 		break;
 		//直接购买
@@ -48,6 +49,7 @@
 				$_SESSION['cart'][$gid]['qty']=$_SESSION['cart'][$gid]['store'];
 			}
 			$total = total($_SESSION['cart']);
+			$_SESSION['total'] = $total;
 			require '../View/car.php';
 		break;
 		case 'minus':
@@ -57,11 +59,13 @@
 				$_SESSION['cart'][$gid]['qty']=1;
 			}
 			$total = total($_SESSION['cart']);
+			$_SESSION['total'] = $total;
 			require '../View/car.php';
 			break;
 		case 'del':
 			$gid=$_GET['gid'];
 			$total = total($_SESSION['cart']);
+			$_SESSION['total'] = $total;
 			unset($_SESSION['cart'][$gid]);
 			require '../View/car.php';
 			break;
