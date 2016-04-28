@@ -19,7 +19,7 @@
       <tr>
         <td align="left" valign="bottom" id="header-name">那些年我失身了</td>
         <td align="right" valign="top" id="header-right">
-        	<a href="outlogin.php" target="topFrame" onFocus="this.blur()" class="admin-out">注销</a>
+        	<a href="loginController.php?cname=outlogin" target="topFrame" onFocus="this.blur()" class="admin-out">注销</a>
             <a href="##" target="top" onFocus="this.blur()" class="admin-home">管理首页</a>
         	<a href="##" target="_blank" onFocus="this.blur()" class="admin-index">网站首页</a>
             <span>

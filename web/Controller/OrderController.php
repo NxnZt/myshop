@@ -1,6 +1,7 @@
 <?php
 	require '../../init.php';
 	require BASE_PATH.'function/mysql.php';
+	require '../webConfig.php';
 	$uid = $_SESSION['user']['id'];
 	$address=select('address','*',array('where'=>'uid='.$uid));
 	$cname = $_GET['cname'];
@@ -28,6 +29,7 @@
 				//订单详情
 				if (add('detail',$goodsdata)>0) {
 					echo '添加成功';
+					header('location:UserController.php');
 				} else {
 					echo '添加失败';
 				}
@@ -36,5 +38,13 @@
 			echo '添加失败';
 		}
 		exit;
+		case 'edit':
+			$stno = $_GET['stno'];
+			$data['id'] = $_GET['id'];
+			$data['statu']=$stno;
+			if (save('order',$data)!==false) {
+				header('location:UserController.php');
+			}
+			break;
 	}
 	require '../View/orders.php';

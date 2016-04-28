@@ -20,4 +20,3 @@
 	include BASE_PATH.'Conf/config.php';
 	//公共目录路径
 	define('__PUBLIC__',$url.'/public');
- ?>

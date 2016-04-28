@@ -151,7 +151,7 @@
 		$group=empty($term['group'])?'':'group by '.$term['group'];
 		$having=empty($term['group'])?'':'having '.$term['having'];
 
-		$sql="SELECT {$fields} FROM {$table} {$where} {$order} {$limit} {$group} {$having}";
+		$sql="SELECT {$fields} FROM `{$table}` {$where} {$order} {$limit} {$group} {$having}";
 		//查询的数据
 		$result=mysqli_query($link,$sql);
 		if($result && mysqli_num_rows($result)>0){
@@ -198,8 +198,7 @@
 		}
 		$setStr=implode(',',$set);
 		$link=connect();
-		$sql="update $table set {$setStr} where 1 $id";
-		echo $sql;
+		$sql="update `{$table}` set {$setStr} where 1 $id";
 		$result=mysqli_query($link,$sql);
 		return $result;
 	}

@@ -12,8 +12,7 @@
 		}else{
 			$where='';
 		}
-		$sql="select count(*) from $table $where";
-
+		$sql="select count(*) from `{$table}` $where";
 		$link=connect();
 		$result=mysqli_query($link,$sql);
 		$row=mysqli_fetch_row($result);

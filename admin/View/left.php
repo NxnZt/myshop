@@ -35,16 +35,12 @@ body{overflow-x:hidden; background:url(<?php echo __PUBLIC__.'/Admin/Image/main/
       </div>
       <div class="collapsed">
         <span>前台用户管理</span>
-        <a href="./snuser/index.php" target="mainFrame" onFocus="this.blur()">苏宁用户列表</a>
+        <a href="WebUserController.php?cname=index" target="mainFrame" onFocus="this.blur()">苏宁用户列表</a>
       </div>
       <div>
         <span>分类管理</span>
         <a href="CategaryController.php?cname=index" target="mainFrame" onFocus="this.blur()">分类列表</a>
         <a href="CategaryController.php?cname=add" target="mainFrame" onFocus="this.blur()">添加分类列表</a>
-      </div>
-      <div class="collapsed">
-        <span>评论管理</span>
-        <a href="./comment/index.php" target="mainFrame" onFocus="this.blur()">评论列表</a>
       </div>
       <div>
         <span>商品管理</span>
@@ -53,15 +49,11 @@ body{overflow-x:hidden; background:url(<?php echo __PUBLIC__.'/Admin/Image/main/
       </div>
       <div>
         <span>订单管理</span>
-        <a href="./order/index.php" target="mainFrame" onFocus="this.blur()">订单列表</a>
+        <a href="OrderController.php?cname=index" target="mainFrame" onFocus="this.blur()">订单列表</a>
       </div>
       <div>
         <span>地址管理</span>
-        <a href="./address/index.php" target="mainFrame" onFocus="this.blur()">地址列表</a>
-      </div>
-      <div>
-        <span>统计管理</span>
-        <a href="./census/index.php" target="mainFrame" onFocus="this.blur()">统计列表</a>
+        <a href="AddressController.php?cname=index" target="mainFrame" onFocus="this.blur()">地址列表</a>
       </div>
     </div>
 </body>

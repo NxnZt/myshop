@@ -1,6 +1,3 @@
-<?php
-	include '../init.php';
-?>
 <!doctype html>
 <html>
 <head>

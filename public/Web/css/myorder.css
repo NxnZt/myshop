@@ -2,10 +2,10 @@
 @font-face{
 font-family:'ng-iconfont';
 src:url('./font/iconfont.eot?var=03');
-src:url('./font/iconfont.eot?#iefix') 
-format('embedded-opentype'),url('./font/iconfont.woff?var=03') 
-format('woff'),url('./font/iconfont.ttf?var=03') 
-format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03') 
+src:url('./font/iconfont.eot?#iefix')
+format('embedded-opentype'),url('./font/iconfont.woff?var=03')
+format('woff'),url('./font/iconfont.ttf?var=03')
+format('truetype'),url('./font/iconfont.svg#uxiconfont?var=03')
 format('svg')
 }
 
@@ -42,7 +42,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 /*header_top样式开始*/
 #header{
-	width: 1263px;
+	width: 100%;
 
 }
 #header .header_top{
@@ -158,12 +158,12 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 	overflow:hidden;
 }
 .main_top{
-	width: 1263px;
+	width: 100%;
 	height: 104;
 	position: relative;
 }
 .top_menu{
-	width:1263px;
+	width:100%;
 	height: 60px;
 	background:#f70;
 
@@ -279,6 +279,8 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 }
 .user_form{
 	overflow:hidden;
+	width: 1230px;
+    margin: 0 auto;
 }
 .form_list{
 	width: 187px;
@@ -336,12 +338,12 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 .list_out  dd a{
 	color: #000;
 	font-size: 12px;
-	
+
 }
 .list_out  dd a:hover {
 	color: #f60;
 	font-size: 12px;
-	
+
 }
 .list_out  dd span{
 	font-size: 12px;
@@ -367,7 +369,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     margin-top: 3px;
 }
 .form_main{
-	width: 1050px;
+	width: 1040px;
 	overflow: hidden;
 	float: left;
 	margin-top: 15px;
@@ -539,7 +541,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 
 }
 .table_box .nullorder p{
-	text-align:center;	
+	text-align:center;
 }
 .table_box .nullorder .p1{
 	margin-top:10px;
@@ -702,7 +704,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
     position: absolute;
     top: 0;
 	background:url(../img/cart1.png) no-repeat -228px 100px;
-	
+
 }
 .mid_goods{
 	width:898px;
@@ -759,7 +761,7 @@ body,h1,h2,h3,h4,h5,h6,i,b,span,em{
 /*footer star*/
 #footer{
 	overflow: hidden;
-	width: 1263px;
+	width: 100%;
 }
 .login_footer{
 	width:100%;
